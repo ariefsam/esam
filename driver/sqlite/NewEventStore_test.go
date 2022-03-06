@@ -29,6 +29,6 @@ func TestNewSQLite(t *testing.T) {
 	assert.NotEmpty(t, &projection)
 
 	testdata.TestSuite(t, &es, &projection)
-	os.Remove("./testdata.db")
-	os.Remove("./testdataprojection.db")
+	// os.Remove("./testdata.db")
+	// os.Remove("./testdataprojection.db")
 }

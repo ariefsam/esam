@@ -1,0 +1,5 @@
+package procost
+
+func NewEventStore() {
+
+}
