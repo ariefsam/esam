@@ -102,9 +102,6 @@ func (p *ProjectionSqlite) Project(ctx context.Context) {
 			p.db.Create(&store)
 			id = meta.EventID
 		}
-		if once {
-			return
-		}
 	}
 }
 
